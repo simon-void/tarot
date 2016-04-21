@@ -1,0 +1,169 @@
+/** Add css rules here for your application. */
+
+/** hide the cofiguration **/
+#tarotConfig {
+	display:none
+}
+
+BODY {
+    background: #BDB8BE;
+}
+
+
+.hostPage {
+background-color: #BDB8BE;
+}
+
+
+A   {
+    text-decoration : none;
+    color: #A52316;
+}
+
+
+/** Example rules used by the template application (remove for your app) */
+H1 {
+    font-size : 32px;
+    font-weight: 900;
+    font-family: "Arial Black", Arial, Helvetica Blk, Gill Sans Ultra Bold Condensed, Haettenschweiler, sans-serif;
+    color : #A52316;
+    line-height : 120%;
+    margin-top : 6px;
+    margin-bottom : 4px;
+ /* text-align: center;*/
+}
+
+H1 A {
+    color : #A52316;
+}
+
+H1 A:hover {
+    background: #A52316;
+    color: #FFFFFF;
+}
+
+
+/* Mellanrubrik */
+H2 {
+    font-size : 24px;
+    font-weight: 900;
+    font-family: "Arial Black", Arial, Helvetica Blk, Gill Sans Ultra Bold Condensed, Haettenschweiler, sans-serif;
+    color : #A52316;
+    line-height : 140%;
+    margin-top : 3px;
+    margin-bottom :3px;
+}
+
+H2 A {
+    color : #A52316;
+}
+
+H2 A:hover {
+    background: #A52316;
+    color: #FFFFFF;
+}
+
+
+/* Undertitel-mellanrubrik */
+H3 {
+    font-size : 18px;
+    font-family : "Arial Narrow", Arial, Helvetica condensed, Verdana, sans serif;
+    font-weight : 700;
+    color : #A52316;
+    line-height : 140%;
+    margin-top : 3px;
+    margin-bottom :3px;
+}
+
+H3 A {
+    color : #A52316;
+}
+
+H3 A:hover {
+    background: #A52316;
+    color: #FFFFFF;
+}
+
+
+/* Brodtext */
+.txt {
+    font-size : 20px;
+    font-family : Palatino Linotype, Georgia, Garamond, AGaramond, Schoolbook, serif;
+    color : Black;
+    line-height : 150%;
+    text-align : left;
+}
+
+.txt P {
+    margin-top : 8px;
+    margin-bottom : 12px;
+}
+
+.txt A {
+    color : #A52316;
+}
+
+.txt A:hover {
+    background: #A52316;
+    color: #FFFFFF;
+}
+
+
+/* mini */
+.mini   {
+    font-size: 12px;
+    font-family: Palatino Linotype, Georgia, serif;
+    font-weight: 500;
+    font-style: normal;
+    color: #000000;
+    line-height: 110%;
+}
+
+.mini P {
+    margin-top : 3px;
+    margin-bottom : 3px;
+}
+
+
+.sendButton {
+  display: block;
+  font-size: 16pt;
+}
+
+/** Most GWT widgets already have a style name defined */
+.gwt-DialogBox {
+  width: 400px;
+}
+
+.dialogVPanel {
+  margin: 5px;
+}
+
+.serverResponseLabelError {
+  color: red;
+}
+
+/** Set ids using widget.getElement().setId("idOfElement") */
+#closeButton {
+  margin: 15px 6px 6px;
+}
+
+.cardDecorator .topCenter {
+  background-color: white;
+}
+
+.cardDecorator .middleLeft {
+  background-color: white;
+}
+
+.cardDecorator .middleRight {
+  background-color: white;
+}
+
+.cardDecorator .bottomCenter {
+  background-color: white;
+}
+
+.cardDecorator .middleCenter {
+  background-color: white;
+}

@@ -1,0 +1,8 @@
+.classpath
+.gwt/
+.project
+.settings/
+gwt-unitCache/
+war/WEB-INF/deploy/
+war/WEB-INF/classes/
+war/tarot/
