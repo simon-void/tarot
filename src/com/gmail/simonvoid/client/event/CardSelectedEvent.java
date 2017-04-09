@@ -2,24 +2,20 @@ package com.gmail.simonvoid.client.event;
 
 import com.gmail.simonvoid.client.TarotCard;
 
-public class CardSelectedEvent
-{
+public class CardSelectedEvent {
   final private TarotCard card;
   final private boolean uncoverd;
-  
-  public CardSelectedEvent(TarotCard card, boolean uncovered)
-  {
+
+  public CardSelectedEvent(TarotCard card, boolean uncovered) {
     this.card = card;
     this.uncoverd = uncovered;
   }
 
-  public boolean isUncovered()
-  {
+  public boolean isUncovered() {
     return uncoverd;
   }
 
-  public TarotCard getSelectedCard()
-  {
+  public TarotCard getSelectedCard() {
     return card;
   }
 }

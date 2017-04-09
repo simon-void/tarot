@@ -7,14 +7,13 @@ import com.google.gwt.user.client.ui.RootPanel;
 /**
  * Entry point classes define <code>onModuleLoad()</code>.
  */
-public class Tarot implements EntryPoint
-{
+public class Tarot implements EntryPoint {
   /**
    * This is the entry point method.
    */
-  public void onModuleLoad()
-  {
-    final CelticCrossSpread cardSpread = new CelticCrossSpread();
+  public void onModuleLoad() {
+    TarotConfiguration config = new TarotConfiguration();
+    CelticCrossSpread cardSpread = new CelticCrossSpread(config);
 
     DecoratorPanel cardSpreadDecorator = new DecoratorPanel();
     cardSpreadDecorator.setWidget(cardSpread);
